@@ -1,3 +1,4 @@
+/*
 const name = 15;
 const student = {
     name: 'Jolil', friend: 'borsha', job: 'Business',
@@ -7,4 +8,10 @@ const student = {
 };
 student.makeMovie('Din raat');
 // document.getElementById('name');
-alert('abc')
+alert('abc') */
+
+<a id="anchor" href="https://web.programming-hero.com/dashboard">Visit</a>
+
+const url = document.getElementById("anchor");
+const path = url.pathname;
+console.log(path)
